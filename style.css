@@ -1,5 +1,6 @@
 body{
     font-family: 'Oswald', sans-serif;
+    margin: 0%;
 }
 h1{
     font-size: 50px;
@@ -7,4 +8,24 @@ h1{
 }
 .orange-color{
     color: orange;
+}
+section{
+    display: flex;
+}
+.new-one{
+    width: 50%;
+    padding-left: 2%;
+}
+.new-one img{
+    width: 90%;
+}
+.link-button{
+    text-decoration: none;
+  background-image:linear-gradient(orange,tomato);
+    border-radius: 5px;
+    font-weight: 400;
+}
+.new-two{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
